@@ -15,6 +15,12 @@
 		5BBE34AB2642E35000A2AAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE34A92642E35000A2AAE0 /* LaunchScreen.storyboard */; };
 		5BBE34B62642E35000A2AAE0 /* MemoryMasteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34B52642E35000A2AAE0 /* MemoryMasteryTests.swift */; };
 		5BBE34C12642E35000A2AAE0 /* MemoryMasteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34C02642E35000A2AAE0 /* MemoryMasteryUITests.swift */; };
+		5BBE34D02642E64400A2AAE0 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34CF2642E64400A2AAE0 /* Student.swift */; };
+		5BBE34D22642E6AD00A2AAE0 /* ARCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34D12642E6AD00A2AAE0 /* ARCView.swift */; };
+		5BBE34D42642EAB800A2AAE0 /* ARCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34D32642EAB800A2AAE0 /* ARCViewModel.swift */; };
+		5BBE34D62642ED6300A2AAE0 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34D52642ED6300A2AAE0 /* Teacher.swift */; };
+		5BBE34D82642F21D00A2AAE0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34D72642F21D00A2AAE0 /* Person.swift */; };
+		5BBE34DA2642F22600A2AAE0 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE34D92642F22600A2AAE0 /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5BBE34BC2642E35000A2AAE0 /* MemoryMasteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryMasteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBE34C02642E35000A2AAE0 /* MemoryMasteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMasteryUITests.swift; sourceTree = "<group>"; };
 		5BBE34C22642E35000A2AAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBE34CF2642E64400A2AAE0 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		5BBE34D12642E6AD00A2AAE0 /* ARCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCView.swift; sourceTree = "<group>"; };
+		5BBE34D32642EAB800A2AAE0 /* ARCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewModel.swift; sourceTree = "<group>"; };
+		5BBE34D52642ED6300A2AAE0 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		5BBE34D72642F21D00A2AAE0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5BBE34D92642F22600A2AAE0 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		5BBE349D2642E34D00A2AAE0 /* MemoryMastery */ = {
 			isa = PBXGroup;
 			children = (
+				5BBE34CE2642E61000A2AAE0 /* ARC */,
 				5BBE349E2642E34D00A2AAE0 /* AppDelegate.swift */,
 				5BBE34A02642E34D00A2AAE0 /* SceneDelegate.swift */,
 				5BBE34A22642E34D00A2AAE0 /* ContentView.swift */,
@@ -134,6 +147,19 @@
 				5BBE34C22642E35000A2AAE0 /* Info.plist */,
 			);
 			path = MemoryMasteryUITests;
+			sourceTree = "<group>";
+		};
+		5BBE34CE2642E61000A2AAE0 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				5BBE34CF2642E64400A2AAE0 /* Student.swift */,
+				5BBE34D52642ED6300A2AAE0 /* Teacher.swift */,
+				5BBE34D72642F21D00A2AAE0 /* Person.swift */,
+				5BBE34D92642F22600A2AAE0 /* Job.swift */,
+				5BBE34D32642EAB800A2AAE0 /* ARCViewModel.swift */,
+				5BBE34D12642E6AD00A2AAE0 /* ARCView.swift */,
+			);
+			path = ARC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +295,12 @@
 				5BBE349F2642E34D00A2AAE0 /* AppDelegate.swift in Sources */,
 				5BBE34A12642E34D00A2AAE0 /* SceneDelegate.swift in Sources */,
 				5BBE34A32642E34D00A2AAE0 /* ContentView.swift in Sources */,
+				5BBE34D22642E6AD00A2AAE0 /* ARCView.swift in Sources */,
+				5BBE34DA2642F22600A2AAE0 /* Job.swift in Sources */,
+				5BBE34D02642E64400A2AAE0 /* Student.swift in Sources */,
+				5BBE34D62642ED6300A2AAE0 /* Teacher.swift in Sources */,
+				5BBE34D82642F21D00A2AAE0 /* Person.swift in Sources */,
+				5BBE34D42642EAB800A2AAE0 /* ARCViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +473,7 @@
 				DEVELOPMENT_TEAM = NAACQA7M35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MemoryMastery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +495,7 @@
 				DEVELOPMENT_TEAM = NAACQA7M35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MemoryMastery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
